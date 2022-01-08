@@ -1,42 +1,26 @@
-/* SCRIPTABLE Hong Kong NEWS WIDGET
-coded by Angus (https://twitter.com/angus_t)
- 
- 
- This project used to provide Hong Kong news widget with Scriptable.
- This project inspired from Saudumm (https://github.com/Saudumm/scriptable-News-Widget).  
- 
- WIDGET PARAMETER: you can long press on the widget on your homescreen and edit parameters
- - It is comman separated configure. 
-  1. Site name [9news]
-  2. Is the feed shows thumbnail [true,false] 
- - example:  
-     - `9news`   // showing 9news
- */
-
-const C_FEED_TYPE = {
-  RSS: "RSS",
-  JSON: "JSON",
+const SUPPORTED_FEED_TYPE = {
+  RSS: "RSS"
 }
 
-const configs = {
+const CONFIGS = {
   "9news": {
     FEED_URL: "https://www.9news.com.au/rss",
-    FEED_TYPE: C_FEED_TYPE.RSS,
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "9news"
   },
   "9news-nsw": {
     FEED_URL: "https://www.9news.com.au/new-south-wales/rss",
-    FEED_TYPE: C_FEED_TYPE.RSS,
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "9news NSW"
   },
   "9news-vic": {
     FEED_URL: "https://www.9news.com.au/victoria/rss",
-    FEED_TYPE: C_FEED_TYPE.RSS,
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "9news VIC"
   },
   "9news-qld": {
     FEED_URL: "https://www.9news.com.au/queensland/rss",
-    FEED_TYPE: C_FEED_TYPE.RSS,
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "9news QLD"
   },
 }
@@ -45,10 +29,9 @@ const WIDGET_SIZE_SMALL = "small"
 const WIDGET_SIZE_MEDIUM = "medium"
 const WIDGET_SIZE_LARGE = "large"
 
-let FEED_URL = configs["9news"].FEED_URL;
-let FEED_TYPE = configs["9news"].FEED_URL;
-let FEED_NAME = configs["9news"].FEED_NAME;
-let SHOW_POST_IMAGES = false;
+let FEED_URL = CONFIGS["9news"].FEED_URL;
+let FEED_TYPE = CONFIGS["9news"].FEED_URL;
+let FEED_NAME = CONFIGS["9news"].FEED_NAME;
 
 /*
  COLOR CONFIG: You can edit almost all colors of your widget
@@ -70,7 +53,6 @@ const WIDGET_SIZE = (config.runsInWidget ? config.widgetFamily : WIDGET_SIZE_LAR
 let POST_COUNT = 3;
 const FONT_POST_DATE = Font.heavySystemFont(10);
 const FONT_POST_HEADLINE = Font.heavySystemFont(10);
-// const POST_IMAGE_SIZE = new Size(30,30);
 
 // set the feed, post count
 setWidgetParameters();
@@ -101,10 +83,10 @@ function setWidgetParameters() {
   if (args.widgetParameter) {
     const site = args.widgetParameter;
 
-    if (configs[site] == undefined) 
+    if (CONFIGS[site] == undefined) 
       logError(`Unsupported site: ${site}`);
     else 
-      ({FEED_URL, FEED_TYPE, FEED_NAME} = configs[site]);
+      ({FEED_URL, FEED_TYPE, FEED_NAME} = CONFIGS[site]);
   }
 
   switch (WIDGET_SIZE) {
