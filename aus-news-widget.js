@@ -6,22 +6,52 @@ const CONFIGS = {
   "9news": {
     FEED_URL: "https://www.9news.com.au/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news"
+    FEED_NAME: "9News"
   },
   "9news-nsw": {
     FEED_URL: "https://www.9news.com.au/new-south-wales/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news NSW"
+    FEED_NAME: "9News NSW"
   },
   "9news-vic": {
     FEED_URL: "https://www.9news.com.au/victoria/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news VIC"
+    FEED_NAME: "9News VIC"
   },
   "9news-qld": {
     FEED_URL: "https://www.9news.com.au/queensland/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news QLD"
+    FEED_NAME: "9News QLD"
+  },
+  "sbs": {
+    FEED_URL: "https://www.sbs.com.au/news/feed",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "SBS"
+  },
+  "sbs-latest": {
+    FEED_URL: "https://www.sbs.com.au/news/topic/latest/feed",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "SBS latest"
+  },
+  "7news": {
+    FEED_URL: "https://7news.com.au/rss",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "7NEWS"
+  },
+  "7news-nsw": {
+    FEED_URL: "https://7news.com.au/news/nsw/rss",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "7NEWS NSW"
+  },
+  "7news-vic": {
+    FEED_URL: "https://7news.com.au/news/vic/rss",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "7NEWS VIC"
+  },
+  "7news-qld": {
+    FEED_URL: "https://7news.com.au/news/qld/rss",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "7NEWS QLD"
   },
 }
 const STORAGE_DIR = "ausnews-widget-data"
