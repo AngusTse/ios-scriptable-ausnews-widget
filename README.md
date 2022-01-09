@@ -5,8 +5,8 @@
 - [Scriptable for iOS](https://apps.apple.com/de/app/scriptable/id1405459188)
 
 ## Credits
-Inspired by [Saudumm's project](https://github.com/Saudumm/scriptable-News-Widget) which scraped WordPress and RSS Feeds. 
-Inspried by [Angus's project](https://github.com/AngusTse/ios-scriptable-ausnews-widget), but adding support of Hong Kong news.
+- Inspired by [Saudumm's project](https://github.com/Saudumm/scriptable-News-Widget) which scraped WordPress and RSS Feeds. 
+- Inspried by [Angus's project](https://github.com/AngusTse/ios-scriptable-ausnews-widget), but adding support of Hong Kong news.
 
 ## Author
 Victor
