@@ -68,6 +68,11 @@ const CONFIGS = {
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "香港電台即時本地新中聞"
   },
+  "hkfp": {
+    FEED_URL: "https://hongkongfp.com/feed/",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "Hong Kong Free Press"
+  },
 }
 const STORAGE_DIR = "ausnews-widget-data"
 const WIDGET_SIZE_SMALL = "small"
