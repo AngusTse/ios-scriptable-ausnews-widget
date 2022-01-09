@@ -23,6 +23,16 @@ const CONFIGS = {
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "9news QLD"
   },
+  "sbs": {
+    FEED_URL: "https://www.sbs.com.au/news/feed",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "SBS"
+  },
+  "sbs-latest": {
+    FEED_URL: "https://www.sbs.com.au/news/topic/latest/feed",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "SBS latest"
+  },
 }
 const STORAGE_DIR = "ausnews-widget-data"
 const WIDGET_SIZE_SMALL = "small"
