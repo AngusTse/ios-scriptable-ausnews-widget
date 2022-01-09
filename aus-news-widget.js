@@ -6,22 +6,22 @@ const CONFIGS = {
   "9news": {
     FEED_URL: "https://www.9news.com.au/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news"
+    FEED_NAME: "9News"
   },
   "9news-nsw": {
     FEED_URL: "https://www.9news.com.au/new-south-wales/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news NSW"
+    FEED_NAME: "9News NSW"
   },
   "9news-vic": {
     FEED_URL: "https://www.9news.com.au/victoria/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news VIC"
+    FEED_NAME: "9News VIC"
   },
   "9news-qld": {
     FEED_URL: "https://www.9news.com.au/queensland/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "9news QLD"
+    FEED_NAME: "9News QLD"
   },
   "sbs": {
     FEED_URL: "https://www.sbs.com.au/news/feed",
