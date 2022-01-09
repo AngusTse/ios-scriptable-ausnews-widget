@@ -33,6 +33,11 @@ const CONFIGS = {
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "SBS latest"
   },
+  "sbs-cantonese": {
+    FEED_URL: "https://feeds.sbs.com.au/sbs-cantonese",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "SBS 廣東話"
+  },
   "7news": {
     FEED_URL: "https://7news.com.au/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
@@ -73,7 +78,7 @@ let FEED_NAME = CONFIGS["9news"].FEED_NAME;
 
 let BG_COLOR = Color.dynamic(new Color("#fefefe"), new Color("#1c1c1e"));
 const FONT_SITENAME = Font.heavySystemFont(10);
-const FONT_COLOR_SITENAME = Color.dynamic(new Color("#1c1c1e"), new Color("#fefefe"));
+const FONT_COLOR_SITENAME = Color.dynamic(new Color("#00b2ff"), new Color("#00b2ff"));
 const FONT_COLOR_POST_DATE = Color.dynamic(Color.darkGray(), Color.gray());
 const FONT_COLOR_HEADLINE = Color.dynamic(new Color("#1c1c1e"), new Color("#fefefe"));
 
