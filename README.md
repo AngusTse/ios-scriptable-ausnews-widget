@@ -1,4 +1,4 @@
-# iOS Australia News widget with scriptable
+# iOS News widget with scriptable
 
 ## Requirements
 - iOS 14+
@@ -6,9 +6,10 @@
 
 ## Credits
 Inspired by [Saudumm's project](https://github.com/Saudumm/scriptable-News-Widget) which scraped WordPress and RSS Feeds. 
+Inspried by [Angus's project](https://github.com/AngusTse/ios-scriptable-ausnews-widget), but adding support of Hong Kong news.
 
 ## Author
-Angus (https://twitter.com/angus_t)
+Victor
 
 ## Installation
 1. Install the [Scriptable for iOS](https://apps.apple.com/de/app/scriptable/id1405459188)
@@ -34,7 +35,11 @@ You may repeat step 6-10 to add more News Widget.
 | 9news-qld | https://www.9news.com.au/queensland/rss |
 | sbs       | https://www.sbs.com.au/news/feed |
 | sbs-latest| https://www.sbs.com.au/news/topic/latest/feed |
+| sbs-cantonese| https://feeds.sbs.com.au/sbs-cantonese |
 | 7news     | https://7news.com.au/rss |
 | 7news-nsw | https://7news.com.au/news/nsw/rss |
 | 7news-vic | https://7news.com.au/news/vic/rss |
 | 7news-qld | https://7news.com.au/news/qld/rss |
+| rfa-cantonese | https://www.rfa.org/cantonese/news/rss2.xml |
+| rthk-news | http://rthk9.rthk.hk/rthk/news/rss/c_expressnews_clocal.xml |
+| hkfp | https://hongkongfp.com/feed/ |
