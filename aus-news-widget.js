@@ -36,7 +36,7 @@ const CONFIGS = {
   "sbs-cantonese": {
     FEED_URL: "https://feeds.sbs.com.au/sbs-cantonese",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "SBS 廣東話"
+    FEED_NAME: "SBS 廣東話節目"
   },
   "7news": {
     FEED_URL: "https://7news.com.au/rss",
@@ -57,6 +57,11 @@ const CONFIGS = {
     FEED_URL: "https://7news.com.au/news/qld/rss",
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "7NEWS QLD"
+  },
+  "rfa-cantonese": {
+    FEED_URL: "https://www.rfa.org/cantonese/news/rss2.xml",
+    FEED_TYPE: SUPPORT_FEED_TYPE.RSS,
+    FEED_NAME: "RFA 自由亞洲電臺粵語部"
   },
 }
 const STORAGE_DIR = "ausnews-widget-data"
