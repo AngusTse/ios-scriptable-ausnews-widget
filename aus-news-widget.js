@@ -53,11 +53,6 @@ const CONFIGS = {
     FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "7NEWS QLD"
   },
-  "7news-qld": {
-    FEED_URL: "https://7news.com.au/news/sa/rss",
-    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
-    FEED_NAME: "7NEWS SA"
-  },
 }
 const STORAGE_DIR = "ausnews-widget-data"
 const WIDGET_SIZE_SMALL = "small"
