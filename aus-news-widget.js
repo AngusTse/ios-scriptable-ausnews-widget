@@ -60,8 +60,13 @@ const CONFIGS = {
   },
   "rfa-cantonese": {
     FEED_URL: "https://www.rfa.org/cantonese/news/rss2.xml",
-    FEED_TYPE: SUPPORT_FEED_TYPE.RSS,
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
     FEED_NAME: "RFA 自由亞洲電臺粵語部"
+  },
+  "rthk-news": {
+    FEED_URL: "http://rthk9.rthk.hk/rthk/news/rss/c_expressnews_clocal.xml",
+    FEED_TYPE: SUPPORTED_FEED_TYPE.RSS,
+    FEED_NAME: "香港電台即時本地新中聞"
   },
 }
 const STORAGE_DIR = "ausnews-widget-data"
